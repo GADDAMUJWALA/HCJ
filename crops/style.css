@@ -1,0 +1,97 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+}
+.greendiv{
+    width:100%;
+    height:60px;
+    background-color: rgb(66, 156, 66);
+    display:flex;
+
+}
+.logo{
+    width:100%;
+    height:100%;
+    display:flex;
+    align-content: normal;
+
+}
+.nav{
+    width:70%;
+    height:100%;
+}
+.list{
+    width:100%;
+    height:100%;
+    display: flex;
+    list-style:none;
+    color: beige;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.banner img{
+    height:100%;
+    width:100%;
+    
+}
+.search-bar {
+    display: flex;
+    position:absolute;
+    top:150px;
+    left:500px;;
+    width:500px;
+    height:40px;
+    justify-content:center;
+    align-items: center;
+    background-image:url(images/bg1.jpg);
+    border-radius: 5px  5px;
+    
+}
+
+.search-bar input {
+    padding: 10px;
+    border:0dvb;
+    border-radius: 5px 5px;
+    width:500px;
+}
+
+.search-bar button {
+    padding:10px;
+    border:0dvb;
+    border-radius:5px 5px;
+    background-color: rgb(66, 156, 66);
+    color: rgb(12, 12, 12);
+    cursor: pointer;
+}
+.bgbox{
+    background-image: url("bg1.jpg");
+    background-position:center;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width:100%;
+    height:100%;
+}
+.cart-container {
+    display: flex;
+    gap:10px; /* Space between boxes */
+}
+.cart {
+    background-color: white; /* Cart background */
+    border: 2px solid #ccc; /* Border for the cart */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(7, 7, 7, 0.2); /* Shadow for depth */
+    width: 300px;
+    height: 300px;;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+}
